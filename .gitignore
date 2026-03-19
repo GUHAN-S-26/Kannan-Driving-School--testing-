@@ -3,3 +3,10 @@ node_modules/
 Thumbs.db
 *.log
 temp_snippet.html
+Kannan Driving School.txt
+
+# Exclude maintenance scripts
+*.mjs
+*.js
+!server.mjs
+!Kannan Driving School/**/*.js
