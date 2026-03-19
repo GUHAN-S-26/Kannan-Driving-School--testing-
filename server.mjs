@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const PORT = 3000;
-const PUBLIC_DIR = path.join(__dirname, 'cloned-site');
+const PUBLIC_DIR = __dirname;
 
 const MIME_TYPES = {
   '.html': 'text/html',

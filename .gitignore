@@ -5,8 +5,9 @@ Thumbs.db
 temp_snippet.html
 Kannan Driving School.txt
 
-# Exclude maintenance scripts
-*.mjs
-*.js
-!server.mjs
-!Kannan Driving School/**/*.js
+# Exclude maintenance scripts (only in root)
+/*.mjs
+/*.js
+!/server.mjs
+
+# Keep all other files
